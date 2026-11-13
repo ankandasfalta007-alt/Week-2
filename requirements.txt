@@ -1,0 +1,19 @@
+# Core RAG stack
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-chroma>=0.2
+chromadb>=0.5
+pypdf>=4.0
+
+# LLM providers (install the one you use; both are listed for convenience)
+langchain-anthropic>=0.3
+langchain-openai>=0.3
+
+# Local embeddings (default; no API key needed)
+langchain-huggingface>=0.1
+sentence-transformers>=3.0
+
+# Chat UI + config
+streamlit>=1.40
+python-dotenv>=1.0
